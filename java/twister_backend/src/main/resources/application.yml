@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: twister
+    password: twister
+    url: jdbc:postgresql://localhost:5432/twister
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    locations: classpath:db/migrations
+    sql-migration-prefix: TWISTER_
+    enabled: true
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database: postgresql
+
+
