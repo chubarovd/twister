@@ -22,6 +22,16 @@ input[type="text"] {
     width: 250px;
     font-size: 30px;
 }
+input[type="password"] {
+    font-family: Courier;
+    position: relative;
+    right: -1000px;
+    top: 90px;
+    border-radius: 3px;
+    height: 40px;
+    width: 250px;
+    font-size: 30px;
+}
 button {
     font-family: Courier;
     background-color: rgb(255, 183, 0);

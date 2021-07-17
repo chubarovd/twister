@@ -2,9 +2,11 @@
 -- USERS --
 -----------
 CREATE TABLE users (
-  user_id  INT8,
-  username VARCHAR(50) NOT NULL,
-  password VARCHAR(50) NOT NULL,
+  user_id    INT8,
+  login      VARCHAR(50)  NOT NULL,
+  password   VARCHAR(50)  NOT NULL,
+  first_name VARCHAR(100) NOT NULL,
+  last_name  VARCHAR(100) NOT NULL,
   PRIMARY KEY (user_id)
 );
 
